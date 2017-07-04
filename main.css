@@ -1,0 +1,59 @@
+body {
+    background: #2c2c2c;
+}
+
+.stopwatchWrapper {
+    background: #010e1a;
+    height: 80vh;
+    width: 30vw;
+    margin: 108px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3%;
+    border: 5px solid gray;
+}
+
+.timerWrapper {
+    width: 32%;
+    height: 32px;
+    background: #16042e;
+    text-align: center;
+    color: green;
+    padding-top: 12px;
+    border-radius: 3%;
+    border: 3px solid darkgreen;
+}
+
+.timesWrapper {
+    width: 48%;
+    height: 56%;
+    background: lightgray;
+    text-align: center;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: lightgray;
+}
+
+p {
+    font-size: 24px;
+}
+
+p .timeDisplay {
+    color: green;
+}
+
+li {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-around
+}
